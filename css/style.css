@@ -17,6 +17,11 @@ body{
     margin: 0 auto;
 }
 
+.container_main2{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .row_header{
     width: 100%;
     display: flex;
@@ -41,6 +46,11 @@ body{
 }
 .col100{
     width: 100%;;
+}
+
+.col33{
+    width: calc(100% / 3 - 24px);
+    margin: 10px;
 }
 
 .style_header{
@@ -96,10 +106,54 @@ ul{
     border: none;
 }
 
+.button_free{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 90%;
+    padding: 5px 10px;
+}
 .freccia{
     font-size: 40px;
     margin-top: 40px;
     margin-left: 10px;
+}
+
+.border20{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 20%;
+    padding-bottom: 20px;
+}
+.business{
+    border: 2px groove rgba(0, 0, 0, 0.1);
+}
+
+.border10{
+    border-top: 2px groove rgba(0, 0, 0, 0.1);
+}
+
+.business div:first-child{
+    text-align: center;
+}
+
+.title {
+    padding: 20px 0px 10px 20px;
+    font-weight: bolder;
+}
+
+.business p:nth-child(4) {
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.business p:nth-child(5) {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: gray;
+    padding-bottom: 5px;
 }
 
 /* COMMON */
@@ -140,10 +194,24 @@ ul{
     margin-right: 25px;
 }
 
+.margin-left_25px{
+    margin-left: 25px;
+}
 .font-size_12 {
     font-size: 12px;
 }
 
 .margin_20_0{
     margin: 20px 0;
+}
+
+.margin_40_0{
+    margin: 40px 0;
+}
+.padding_20{
+    padding: 20px;
+}
+
+.margin_10{
+    margin: 10px;
 }
