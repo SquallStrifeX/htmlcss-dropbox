@@ -57,6 +57,10 @@ body{
     margin: 10px;
 }
 
+.col33-2{
+    width: calc(100% / 3)
+}
+
 .col75{
     width: 75%;
 }
@@ -71,11 +75,28 @@ body{
     font-size: 12px;
 }
 
+.style_scacchi{
+    color: black;
+    font-size: 12px;
+}
+
 .style_h1{
     text-align: left;
     font-weight: bolder;
     font-size: 42px;
     padding: 40px;
+}
+
+.style_footer{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 25px;
+    color: 
+}
+
+.style_footer2{
+    font-size: 14px;
+    font-weight: bolder;
 }
 
 .style_row_main{
@@ -113,6 +134,10 @@ ul{
     padding: 20px;
     filter: invert(100%);
     
+}
+
+.img_scacchi-center{
+    width: 50%;
 }
 
 .button_white{
@@ -170,6 +195,7 @@ ul{
     background-color: rgba(162,211,155,255);
     border: 10px rgba(209,233,205,255) solid;
     width: calc(50% - 20px);
+    height: calc(100vh / 3 - 20px);
     justify-content: center;
 }
 
@@ -229,7 +255,7 @@ ul{
 }
 
 .bg_sky{
-    background-color: skyblue;
+    background-color: rgba(180,208,231,255);
 }
 
 .bg_arizona{
@@ -258,6 +284,10 @@ ul{
 
 .bg_clean{
     background-color: rgba(255,216,48,255) ;
+}
+
+.color_footer{
+    color: rgba(97,8,43,255);
 }
 .text-align_right{
     text-align: right;
@@ -297,6 +327,10 @@ ul{
     margin: 20px;
 }
 
+.margin_40{
+    margin: 40px;
+}
+
 .margin_20_0{
     margin: 20px 0;
 }
@@ -325,4 +359,21 @@ ul{
 
 .widht_20{
     height: 50%;
+}
+
+.position_absolute{
+    position: absolute;
+    right: 10%;
+    top: 70px
+}
+
+.position_absolute2{
+    position: absolute;
+    right: 0;
+    font-weight: bolder;
+
+}
+
+.position_relative{
+    position: relative;
 }
