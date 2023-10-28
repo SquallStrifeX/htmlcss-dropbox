@@ -31,6 +31,7 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .col40{
@@ -58,7 +59,7 @@ body{
 }
 
 .col33-2{
-    width: calc(100% / 3)
+    width: calc(100% / 3);
 }
 
 .col75{
@@ -110,7 +111,7 @@ body{
 }
 
 .style_row_main{
-    padding: 40px;
+    padding: 0px 40px 0px 40px;
     
 }
 
@@ -132,9 +133,11 @@ ul{
 }
 
 .img_jumbo{
-    width: 100%;
+    width: 70%;
     height: none;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
+    position: absolute;
+    top: 35%;
 }
 
 .img_partner{
@@ -148,15 +151,31 @@ ul{
     
 }
 
+.img_scacchi2{
+    width: 50%;
+    height: 15%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 .img_scacchi-center{
     width: 50%;
 }
 
-.button_white{
-    background-color: white;
-    padding: 5px 10px;
+.button_trasparent{
+    background-color: transparent;
+    padding: 10px 0px 10px 0px;
     border: none;
 
+}
+
+.button_white{
+    background-color: white;
+    padding: 5px 35px;
+    border: none;
 }
 
 .button_white2{
@@ -177,12 +196,12 @@ ul{
     background-color: blue;
     color: white;
     border: none;
-    width: 90%;
+    width: 80%;
     padding: 5px 10px;
 }
 .freccia{
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-left: 10px;
 }
 
@@ -249,6 +268,13 @@ ul{
     display: flex;
 }
 
+.d_inline{
+    display: inline-block;
+}
+
+.ciao{
+    word-break: break-word;
+}
 .wrap{
     flex-wrap: wrap;
 }
@@ -377,12 +403,20 @@ ul{
 .margin-top_10{
     margin-top: 10px;
 }
+
+.margin-bottom_20{
+    margin-bottom: 20px;
+}
 .margin-right_25px{
     margin-right: 25px;
 }
 
 .margin-left_25px{
     margin-left: 25px;
+}
+
+.margin-left_10px{
+    margin-left: 10px;
 }
 .margin-right_5{
     margin-right: 5px;
